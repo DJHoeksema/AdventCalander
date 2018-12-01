@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31C163E21B3549B0099C454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C163D21B3549B0099C454 /* AppDelegate.swift */; };
+		E31C164021B3549B0099C454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C163F21B3549B0099C454 /* ViewController.swift */; };
+		E31C164321B3549B0099C454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C164121B3549B0099C454 /* Main.storyboard */; };
+		E31C164521B3549C0099C454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31C164421B3549C0099C454 /* Assets.xcassets */; };
+		E31C164821B3549C0099C454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C164621B3549C0099C454 /* LaunchScreen.storyboard */; };
+		E31C165321B3549C0099C454 /* AdventCalanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C165221B3549C0099C454 /* AdventCalanderTests.swift */; };
+		E31C165E21B3549C0099C454 /* AdventCalanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C165D21B3549C0099C454 /* AdventCalanderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31C164F21B3549C0099C454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C163221B3549B0099C454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C163921B3549B0099C454;
+			remoteInfo = AdventCalander;
+		};
+		E31C165A21B3549C0099C454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C163221B3549B0099C454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C163921B3549B0099C454;
+			remoteInfo = AdventCalander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31C163A21B3549B0099C454 /* AdventCalander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventCalander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C163D21B3549B0099C454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E31C163F21B3549B0099C454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31C164221B3549B0099C454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31C164421B3549C0099C454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31C164721B3549C0099C454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31C164921B3549C0099C454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C164E21B3549C0099C454 /* AdventCalanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventCalanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C165221B3549C0099C454 /* AdventCalanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventCalanderTests.swift; sourceTree = "<group>"; };
+		E31C165421B3549C0099C454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C165921B3549C0099C454 /* AdventCalanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventCalanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C165D21B3549C0099C454 /* AdventCalanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventCalanderUITests.swift; sourceTree = "<group>"; };
+		E31C165F21B3549D0099C454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31C163721B3549B0099C454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C164B21B3549C0099C454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C165621B3549C0099C454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31C163121B3549B0099C454 = {
+			isa = PBXGroup;
+			children = (
+				E31C163C21B3549B0099C454 /* AdventCalander */,
+				E31C165121B3549C0099C454 /* AdventCalanderTests */,
+				E31C165C21B3549C0099C454 /* AdventCalanderUITests */,
+				E31C163B21B3549B0099C454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31C163B21B3549B0099C454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31C163A21B3549B0099C454 /* AdventCalander.app */,
+				E31C164E21B3549C0099C454 /* AdventCalanderTests.xctest */,
+				E31C165921B3549C0099C454 /* AdventCalanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31C163C21B3549B0099C454 /* AdventCalander */ = {
+			isa = PBXGroup;
+			children = (
+				E31C163D21B3549B0099C454 /* AppDelegate.swift */,
+				E31C163F21B3549B0099C454 /* ViewController.swift */,
+				E31C164121B3549B0099C454 /* Main.storyboard */,
+				E31C164421B3549C0099C454 /* Assets.xcassets */,
+				E31C164621B3549C0099C454 /* LaunchScreen.storyboard */,
+				E31C164921B3549C0099C454 /* Info.plist */,
+			);
+			path = AdventCalander;
+			sourceTree = "<group>";
+		};
+		E31C165121B3549C0099C454 /* AdventCalanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C165221B3549C0099C454 /* AdventCalanderTests.swift */,
+				E31C165421B3549C0099C454 /* Info.plist */,
+			);
+			path = AdventCalanderTests;
+			sourceTree = "<group>";
+		};
+		E31C165C21B3549C0099C454 /* AdventCalanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C165D21B3549C0099C454 /* AdventCalanderUITests.swift */,
+				E31C165F21B3549D0099C454 /* Info.plist */,
+			);
+			path = AdventCalanderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31C163921B3549B0099C454 /* AdventCalander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C166221B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalander" */;
+			buildPhases = (
+				E31C163621B3549B0099C454 /* Sources */,
+				E31C163721B3549B0099C454 /* Frameworks */,
+				E31C163821B3549B0099C454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventCalander;
+			productName = AdventCalander;
+			productReference = E31C163A21B3549B0099C454 /* AdventCalander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31C164D21B3549C0099C454 /* AdventCalanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C166521B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalanderTests" */;
+			buildPhases = (
+				E31C164A21B3549C0099C454 /* Sources */,
+				E31C164B21B3549C0099C454 /* Frameworks */,
+				E31C164C21B3549C0099C454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C165021B3549C0099C454 /* PBXTargetDependency */,
+			);
+			name = AdventCalanderTests;
+			productName = AdventCalanderTests;
+			productReference = E31C164E21B3549C0099C454 /* AdventCalanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31C165821B3549C0099C454 /* AdventCalanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C166821B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalanderUITests" */;
+			buildPhases = (
+				E31C165521B3549C0099C454 /* Sources */,
+				E31C165621B3549C0099C454 /* Frameworks */,
+				E31C165721B3549C0099C454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C165B21B3549C0099C454 /* PBXTargetDependency */,
+			);
+			name = AdventCalanderUITests;
+			productName = AdventCalanderUITests;
+			productReference = E31C165921B3549C0099C454 /* AdventCalanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31C163221B3549B0099C454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Maryville App Development";
+				TargetAttributes = {
+					E31C163921B3549B0099C454 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E31C164D21B3549C0099C454 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E31C163921B3549B0099C454;
+					};
+					E31C165821B3549C0099C454 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E31C163921B3549B0099C454;
+					};
+				};
+			};
+			buildConfigurationList = E31C163521B3549B0099C454 /* Build configuration list for PBXProject "AdventCalander" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31C163121B3549B0099C454;
+			productRefGroup = E31C163B21B3549B0099C454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31C163921B3549B0099C454 /* AdventCalander */,
+				E31C164D21B3549C0099C454 /* AdventCalanderTests */,
+				E31C165821B3549C0099C454 /* AdventCalanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31C163821B3549B0099C454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C164821B3549C0099C454 /* LaunchScreen.storyboard in Resources */,
+				E31C164521B3549C0099C454 /* Assets.xcassets in Resources */,
+				E31C164321B3549B0099C454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C164C21B3549C0099C454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C165721B3549C0099C454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31C163621B3549B0099C454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C164021B3549B0099C454 /* ViewController.swift in Sources */,
+				E31C163E21B3549B0099C454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C164A21B3549C0099C454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C165321B3549C0099C454 /* AdventCalanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C165521B3549C0099C454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C165E21B3549C0099C454 /* AdventCalanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31C165021B3549C0099C454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C163921B3549B0099C454 /* AdventCalander */;
+			targetProxy = E31C164F21B3549C0099C454 /* PBXContainerItemProxy */;
+		};
+		E31C165B21B3549C0099C454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C163921B3549B0099C454 /* AdventCalander */;
+			targetProxy = E31C165A21B3549C0099C454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31C164121B3549B0099C454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31C164221B3549B0099C454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31C164621B3549C0099C454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31C164721B3549C0099C454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31C166021B3549D0099C454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E31C166121B3549D0099C454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31C166321B3549D0099C454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31C166421B3549D0099C454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E31C166621B3549D0099C454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventCalander.app/AdventCalander";
+			};
+			name = Debug;
+		};
+		E31C166721B3549D0099C454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventCalander.app/AdventCalander";
+			};
+			name = Release;
+		};
+		E31C166921B3549D0099C454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventCalander;
+			};
+			name = Debug;
+		};
+		E31C166A21B3549D0099C454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = AdventCalanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.AdventCalanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventCalander;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31C163521B3549B0099C454 /* Build configuration list for PBXProject "AdventCalander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C166021B3549D0099C454 /* Debug */,
+				E31C166121B3549D0099C454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C166221B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C166321B3549D0099C454 /* Debug */,
+				E31C166421B3549D0099C454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C166521B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C166621B3549D0099C454 /* Debug */,
+				E31C166721B3549D0099C454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C166821B3549D0099C454 /* Build configuration list for PBXNativeTarget "AdventCalanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C166921B3549D0099C454 /* Debug */,
+				E31C166A21B3549D0099C454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31C163221B3549B0099C454 /* Project object */;
+}
